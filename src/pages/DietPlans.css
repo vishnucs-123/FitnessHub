@@ -1,0 +1,149 @@
+/* 🌿 General Container */
+.diet-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* 🌟 Heading Styles */
+h2 {
+  color: #2c3e50;
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+h3 {
+  color: #34495e;
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+/* 🎯 Goal Selector */
+.goal-container {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.calorie-intake {
+  color: #e74c3c;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* 🔍 Search Bar */
+.search-bar {
+  width: 90%;
+  max-width: 400px;
+  padding: 12px;
+  margin: 20px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  text-align: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 📋 Food Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background: #3498db;
+  color: white;
+  font-size: 16px;
+}
+
+td {
+  background: white;
+  font-size: 15px;
+}
+
+/* 🍏 Buttons */
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.add-btn {
+  background: #2ecc71;
+  color: white;
+}
+
+.add-btn:hover {
+  background: #27ae60;
+}
+
+.remove-btn {
+  background: #e74c3c;
+  color: white;
+}
+
+.remove-btn:hover {
+  background: #c0392b;
+}
+
+/* 📊 Meal Plan Summary */
+.summary-box {
+  background: #ecf0f1;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+  .diet-container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  th, td {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
+
+/* 🎬 Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

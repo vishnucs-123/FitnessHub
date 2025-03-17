@@ -1,0 +1,62 @@
+.progress-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background: #e0e0e0;
+  border-radius: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #3498db;
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-category {
+  margin-top: 20px;
+}
+
+.chart-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+h2, h3 {
+  color: #2c3e50;
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .progress-container {
+    width: 95%;
+    padding: 20px;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
