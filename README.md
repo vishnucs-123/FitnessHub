@@ -36,36 +36,28 @@ Ensure you have the following installed before running the project:
 git clone https://github.com/your-username/fitnesshub.git
 cd fitnesshub
 
+```
 2️⃣ **Install Dependencies**
-
 ```bash
-Copy
-Edit
 npm install
 
+```
 3️⃣ **Set Up Environment Variables**
 Create a .env file in the root directory and configure the following:
-
-env
-Copy
-Edit
+```bash
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
 JWT_SECRET=your_secret_key
 
+```
 4️⃣ **Start the Server**
-
 ```bash
-Copy
-Edit
 npm start
 The backend should now be running on http://localhost:5000 🚀
 
-5️⃣ **Run the Frontend **
-
+```
+5️⃣ **Run the Frontend**
 ```bash
-Copy
-Edit
 cd client
 npm start
 Access the frontend at http://localhost:3000
