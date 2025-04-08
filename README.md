@@ -37,12 +37,14 @@ git clone https://github.com/your-username/fitnesshub.git
 cd fitnesshub
 
 ```
+
 2️⃣ **Install Dependencies**
 ```bash
 npm install
 
 ```
-3️⃣ **Set Up Environment Variables**
+
+3️⃣ **Set Up Environment Variables**<br>
 Create a .env file in the root directory and configure the following:
 ```bash
 MONGO_URI=your_mongodb_connection_string
@@ -50,14 +52,17 @@ PORT=5000
 JWT_SECRET=your_secret_key
 
 ```
+
 4️⃣ **Start the Server**
 ```bash
 npm start
-The backend should now be running on http://localhost:5000 🚀
 
 ```
+- The backend should now be running on http://localhost:5000 🚀
+
 5️⃣ **Run the Frontend**
 ```bash
 cd client
 npm start
-Access the frontend at http://localhost:3000
+```
+- Access the frontend at http://localhost:3000
